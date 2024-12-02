@@ -10,12 +10,17 @@
     <dmn:informationRequirement id="_71A26496-93A4-4DFA-8F00-7F93E22596EC">
       <dmn:requiredInput href="#_75CEEFDA-5267-4A59-A913-A9A9A3995512" />
     </dmn:informationRequirement>
+    <dmn:literalExpression id="_88BAD27A-EFB4-4D4B-BC2F-71473CC06AAE" typeRef="string" label="Gretting">
+      <dmn:text>&quot;Hello &quot; + Name</dmn:text>
+    </dmn:literalExpression>
   </dmn:decision>
   <dmndi:DMNDI>
     <dmndi:DMNDiagram id="_2865D06D-8E7A-4BAD-9F22-2367175F8A60" name="DRG" useAlternativeInputDataShape="false">
       <di:extension>
         <kie:ComponentsWidthsExtension>
-          <kie:ComponentWidths />
+          <kie:ComponentWidths dmnElementRef="_88BAD27A-EFB4-4D4B-BC2F-71473CC06AAE">
+            <kie:width>190</kie:width>
+          </kie:ComponentWidths>
         </kie:ComponentsWidthsExtension>
       </di:extension>
       <dmndi:DMNShape id="dmnshape-drg-_75CEEFDA-5267-4A59-A913-A9A9A3995512" dmnElementRef="_75CEEFDA-5267-4A59-A913-A9A9A3995512" isCollapsed="false">
